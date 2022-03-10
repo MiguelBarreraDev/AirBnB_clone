@@ -24,7 +24,7 @@ class HBNBCommand(cmd.Cmd):
     def do_create(self, line):
         """\033[38;2;132;255;161m
         Creates a new instance of BaseModel and storage in JSON file
-        
+
         Usage:
             (hbnb) <classname>.create()
             (hbnb) create <classname>
@@ -38,7 +38,7 @@ class HBNBCommand(cmd.Cmd):
     def do_show(self, line):
         """\033[38;2;132;255;161m
         Prints the string representation of an instance
-        
+
         Usage:
             (hbnb) <classname>.show("id")
             (hbnb) show <classname> id
@@ -50,7 +50,7 @@ class HBNBCommand(cmd.Cmd):
     def do_destroy(self, line):
         """\033[38;2;132;255;161m
         Deletes an instance based on the class name and id
-        
+
         Usage:
             (hbnb) <classname>.destroy("id")
             (hbnb) destroy <classname> id
@@ -63,12 +63,12 @@ class HBNBCommand(cmd.Cmd):
     def do_update(self, line):
         """\033[38;2;132;255;161m
         Updates an instance(add or set attribute)
-        
+
         Usage:
             (hbnb) <classname>.update("id", "Attribute", "Value")
             (hbnb) update <classname> id Attribute Value
         \033[0m"""
-        
+
         parts = line.split()
         if self.check_conditions(parts, 4):
             """
@@ -86,7 +86,7 @@ class HBNBCommand(cmd.Cmd):
     def do_all(self, line):
         """\033[38;2;132;255;161m
         Prints all string representation of all instances by classname
-        
+
         Usage:
             (hbnb) <classname>.all()
             (hbnb) all <classname>

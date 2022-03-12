@@ -14,3 +14,7 @@
 ul {
 	list-style: none;
 }
+
+.bold {
+	font-weight: bold;
+}

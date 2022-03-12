@@ -7,9 +7,9 @@
 
 .header_logo {
 	display: block;
-	height: 100%;
 	background-image: url("../images/logo.png");
-	background-repeat: no-repeat;
-	background-position: 0 center;
+	height: 100%;
+	max-width: 142px;
+	width: 100%;
 	margin-left: 20px;
 }

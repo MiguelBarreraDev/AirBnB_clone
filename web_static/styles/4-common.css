@@ -18,3 +18,16 @@ ul {
 .bold {
 	font-weight: bold;
 }
+
+.left {
+	text-align: left;
+}
+
+.bg-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+}
+

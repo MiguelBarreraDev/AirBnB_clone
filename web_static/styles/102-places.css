@@ -20,10 +20,16 @@
 .places_main .places_item {
 	width: 390px;
 	padding: 2%;
-	margin: 20px;
+	margin: 10px;
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
 	text-align: center;
+}
+@media only screen and (min-width: 341px)
+{
+	.places_main .places_item {
+		margin: 20px;
+	}
 }
 .places_main .places_item > h2 {
 	font-size: 30px;

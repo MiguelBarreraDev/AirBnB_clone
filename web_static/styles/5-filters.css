@@ -52,7 +52,7 @@
 	font-weight: 600;
 }
 
-.filters > div > h4 {
+.filters .filters_main h4 {
 	font-weight: 400;
 	font-size: 14px;
 }

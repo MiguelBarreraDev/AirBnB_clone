@@ -8,6 +8,8 @@
 .header_logo {
 	display: block;
 	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	height: 100%;
 	max-width: 142px;
 	width: 100%;

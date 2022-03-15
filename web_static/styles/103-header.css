@@ -10,3 +10,9 @@
 .header_logo {
 	margin-left: 20px;
 }
+
+@media only screen and (max-width: 521px) {
+	.header_logo {
+		margin-left: 1.5%;
+	}
+}
